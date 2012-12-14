@@ -1,0 +1,41 @@
+{
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url":  "http://openshift.redhat.com/"
+  },
+  "homepage": "http://openshift.redhat.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "underscore": ">0",
+    "log": ">0",
+    "bison": ">0",
+    "websocket": ">0",
+    "websocket-server": ">0",
+    "sanitizer": ">0",
+    "memcache": ">0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
